@@ -57,6 +57,7 @@ h4 {
 
 .about-us li {
     margin-bottom: 20px;
+    /* font-family: 'Arial', sans-serif; */
 }
 
 .about-us-content {
@@ -120,11 +121,28 @@ h4 {
     background-color: #ecf0f1;
 }
 
+#icons {
+    background-color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    position: fixed;
+    top: 80%;
+    left: 75%;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  
+ #icons i {
+    padding-bottom: 10px;
+  }
+
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
     body {
         max-width: 100%; /* Mobile Max Width */
     }
+    #icons {
+        left: 90%;
+    }
 }
- 
