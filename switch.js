@@ -9,3 +9,4 @@ $(".fa-beat-fade").click(function(e) {
     var page = myMap.get(e.target);
     document.location.href = page;
 });
+
